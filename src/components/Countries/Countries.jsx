@@ -33,8 +33,10 @@ const Countries = ({ countriesPromise }) => {
       <ol>{
          visitedCountries.map( country => <li key={country.ccn3.ccn3} >{country.name.common}</li> )  }
       </ol>
-          <div className="flags-container">
-           { visitedFlag.map((flag,index) => <img key={index} src={flag} /> )}
+          <div className="visited-flags-container">
+             { 
+             visitedFlags.map((flag,index) =><img key={index} src={flag} />)
+             }
           </div>
 
       <div className="countries">
@@ -47,6 +49,6 @@ const Countries = ({ countriesPromise }) => {
 
     </div>
   );
-};
+}; 
 
 export default Countries;

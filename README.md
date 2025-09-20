@@ -14,3 +14,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## surge live link-
 [country-test.surge.sh](http://country-test.surge.sh/)
+
+## Netlify live link-
+https://country-testing-react.netlify.app/
